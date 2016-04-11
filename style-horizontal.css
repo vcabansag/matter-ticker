@@ -34,156 +34,60 @@
 	position: relative;
 }
 
-.scroll-left1 {
-	white-space: nowrap;
-	position: relative;
-	width: 100%;
-	margin: 0px 0px 0px 0px;
-	line-height: 100%;
-	text-align: center;
-	color:blue;
-    font-family: Nexa-Light;
-   	font-size: 100px;
-	/* Starting position */
-	-moz-transform:translateX(100%);
-	-webkit-transform:translateX(100%);	
-	transform:translateX(100%);
-	/* Apply animation to this element */	
-	-moz-animation: scroll-left 10s linear infinite;
-	-webkit-animation: scroll-left 10s linear infinite;
-	animation: scroll-left 10s linear infinite;
-}
-
-.scroll-left2 {
-	white-space: nowrap;
-	position: relative;
-	width: 100%;
-	margin: 0px;
-	line-height: 100%;
-	text-align: center;
-	color: green;
-    font-family: Nexa-Light;
-   	font-size: 50px;
-	/* Starting position */
-	-moz-transform:translateX(100%);
-	-webkit-transform:translateX(100%);	
-	transform:translateX(100%);
-	/* Apply animation to this element */	
-	-moz-animation: scroll-left 5s linear infinite;
-	-webkit-animation: scroll-left 5s linear infinite;
-	animation: scroll-left 5s linear infinite;
-}
-
-.scroll-left3 {
-	white-space: nowrap;
-	position: relative;
-	width: 100%;
-	margin: 0px;
-	line-height: 100%;
-	text-align: center;
-	color: red;
-    font-family: Nexa-Light;
-   	font-size: 20px;
-	/* Starting position */
-	-moz-transform:translateX(100%);
-	-webkit-transform:translateX(100%);	
-	transform:translateX(100%);
-	/* Apply animation to this element */	
-	-moz-animation: scroll-left 3s linear infinite;
-	-webkit-animation: scroll-left 3s linear infinite;
-	animation: scroll-left 3s linear infinite;
-}
-
 .scroll-left4 {
 	white-space: nowrap;
-	position: relative;
+	position: absolute;
+  bottom: 500px;
 	width: 100%;
 	margin: 0px;
 	line-height: 100%;
 	text-align: center;
-	color: blue;
-   	font-family:Nexa-Light;
-   	font-size: 85px;
+	color: #fe8103;
+  font-family: "Nexa Light";
+  font-size: 85px;
 	/* Starting position */
 	-moz-transform:translateX(100%);
 	-webkit-transform:translateX(100%);	
 	transform:translateX(100%);
 	/* Apply animation to this element */	
-	-moz-animation: scroll-left 11s linear infinite;
-	-webkit-animation: scroll-left 11s linear infinite;
-	animation: scroll-left 11s linear infinite;
+	-moz-animation: scroll-left 13s linear infinite;
+	-webkit-animation: scroll-left 13s linear infinite;
+	animation: scroll-left 13s linear infinite;
 }
 
 .scroll-left5 {
 	white-space: nowrap;
-	position: relative;
+	position: absolute;
+  bottom: 500px;
 	width: 100%;
 	margin: 0px;
 	line-height: 100%;
 	text-align: center;
-	color: red;
-   	font-family:Nexa-Light;
-   	font-size: 35px;
+	color: #f8b72b;
+  font-family: "Nexa Light";
+  font-size: 15px;
 	/* Starting position */
 	-moz-transform:translateX(100%);
 	-webkit-transform:translateX(100%);	
 	transform:translateX(100%);
 	/* Apply animation to this element */	
-	-moz-animation: scroll-left 8s linear infinite;
-	-webkit-animation: scroll-left 8s linear infinite;
-	animation: scroll-left 8s linear infinite;
+	-moz-animation: scroll-left 7s linear infinite;
+	-webkit-animation: scroll-left 7s linear infinite;
+	animation: scroll-left 7s linear infinite;
 }
 
-.scroll-left6 {
-	white-space: nowrap;
-	position: relative;
-	width: 100%;
-	margin: 0px;
-	line-height: 100%;
-	text-align: center;
-	color: green;
-   	font-family:Nexa-Light;
-   	font-size: 65px;
-	/* Starting position */
-	-moz-transform:translateX(100%);
-	-webkit-transform:translateX(100%);	
-	transform:translateX(100%);
-	/* Apply animation to this element */	
-	-moz-animation: scroll-left 18s linear infinite;
-	-webkit-animation: scroll-left 18s linear infinite;
-	animation: scroll-left 18s linear infinite;
-}
-
-.scroll-left7 {
-	white-space: nowrap;
-	position: relative;
-	width: 100%;
-	margin: 0px;
-	line-height: 100%;
-	text-align: center;
-	color: yellow;
-   	font-family:Nexa-Light;
-   	font-size: 95px;
-	/* Starting position */
-	-moz-transform:translateX(100%);
-	-webkit-transform:translateX(100%);	
-	transform:translateX(100%);
-	/* Apply animation to this element */	
-	-moz-animation: scroll-left 9s linear infinite;
-	-webkit-animation: scroll-left 9s linear infinite;
-	animation: scroll-left 9s linear infinite;
-}
 
 .scroll-left8 {
 	white-space: nowrap;
-	position: relative;
+	position: absolute;
+  bottom: 350px;
 	width: 100%;
 	margin: 0px;
 	line-height: 100%;
 	text-align: center;
-	color: purple;
-   	font-family:Nexa-Light;
-   	font-size: 25px;
+	color: #fff;
+  font-family: "Nexa Light";
+  font-size: 25px;
 	/* Starting position */
 	-moz-transform:translateX(100%);
 	-webkit-transform:translateX(100%);	
@@ -194,31 +98,12 @@
 	animation: scroll-left 12s linear infinite;
 }
 
-.scroll-left9 {
-	white-space: nowrap;
-	position: relative;
-	width: 100%;
-	margin: 0px;
-	line-height: 100%;
-	text-align: center;
-	color: red;
-   	font-family:Nexa-Light;
-   	font-size: 75px;
-	/* Starting position */
-	-moz-transform:translateX(100%);
-	-webkit-transform:translateX(100%);	
-	transform:translateX(100%);
-	/* Apply animation to this element */	
-	-moz-animation: scroll-left 20s linear infinite;
-	-webkit-animation: scroll-left 20s linear infinite;
-	animation: scroll-left 20s linear infinite;
-}
 
 .scroll-left11 {
   background: #fff;
 	white-space: nowrap;
 	position: absolute;
-  bottom: 55px;
+  bottom: 60px;
 	width: 100%;
 	margin: 0px;
 	line-height: 100%;
