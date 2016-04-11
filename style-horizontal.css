@@ -25,7 +25,7 @@
   background: #fff;
   position: absolute;
   height: 900px;
-  width: 80px;
+  width: 100px;
 }
 
 .scroll-left {
@@ -214,31 +214,11 @@
 	animation: scroll-left 20s linear infinite;
 }
 
-.scroll-left10 {
-	white-space: nowrap;
-	position: relative;
-	width: 100%;
-	margin: 0px;
-	line-height: 100%;
-	text-align: center;
-	color: #FF66CC;
-   	font-family:Nexa-Light;
-   	font-size: 25px;
-	/* Starting position */
-	-moz-transform:translateX(100%);
-	-webkit-transform:translateX(100%);	
-	transform:translateX(100%);
-	/* Apply animation to this element */	
-	-moz-animation: scroll-left 6s linear infinite;
-	-webkit-animation: scroll-left 6s linear infinite;
-	animation: scroll-left 6s linear infinite;
-}
-
 .scroll-left11 {
   background: #fff;
 	white-space: nowrap;
 	position: absolute;
-  bottom: 46px;
+  bottom: 55px;
 	width: 100%;
 	margin: 0px;
 	line-height: 100%;
@@ -251,9 +231,9 @@
 	-webkit-transform:translateX(100%);	
 	transform:translateX(100%);
 	/* Apply animation to this element */	
-	-moz-animation: scroll-left 17s linear infinite;
-	-webkit-animation: scroll-left 17s linear infinite;
-	animation: scroll-left 17s linear infinite;
+	-moz-animation: scroll-left 8s linear infinite;
+	-webkit-animation: scroll-left 8s linear infinite;
+	animation: scroll-left 8s linear infinite;
 }
 
 .scroll-left14 {
