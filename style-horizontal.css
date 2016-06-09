@@ -22,7 +22,6 @@
 }
 
 #column-left {
-  background: #fff;
   position: absolute;
   height: 900px;
   width: 100px;
@@ -121,7 +120,6 @@
 
 
 .scroll-left11 {
-  background: #fff;
 	white-space: nowrap;
 	position: absolute;
   bottom: 60px;
