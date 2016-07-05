@@ -65,14 +65,14 @@
 .scroll-left4 {
 	white-space: nowrap;
 	position: absolute;
-  bottom: 246px;
+    bottom: 325px;
 	width: 100%;
 	margin: 0px;
 	line-height: 100%;
 	text-align: center;
 	color: #fe8103;
-  font-family: "Nexa Book";
-  font-size: 85px;
+    font-family: "Nexa Book";
+    font-size: 80px;
 	/* Starting position */
 	-moz-transform:translateX(100%);
 	-webkit-transform:translateX(100%);	
@@ -86,7 +86,7 @@
 .scroll-left5 {
 	white-space: nowrap;
 	position: absolute;
-  bottom: 310px;
+    bottom: 390px;
 	width: 100%;
 	margin: 0px;
 	line-height: 100%;
@@ -107,7 +107,7 @@
 .scroll-left6 {
 	white-space: nowrap;
 	position: absolute;
-  bottom: 262px;
+  	bottom: 343px;
 	width: 100%;
 	margin: 0px;
 	line-height: 100%;
@@ -129,7 +129,7 @@
 .scroll-left8 {
 	white-space: nowrap;
 	position: absolute;
-  bottom: 205px;
+  bottom: 200px;
 	width: 100%;
 	margin: 0px;
 	line-height: 100%;
@@ -152,7 +152,7 @@
   background: #fff;
 	white-space: nowrap;
 	position: absolute;
-  bottom: 85px;
+  bottom: 78px;
 	width: 100%;
 	margin: 0px;
 	line-height: 100%;
@@ -191,8 +191,8 @@
 }
 
 span.welcome {
-  font-family:Nexa-Light;
-  font-size: 50px;
+  font-family: "Nexa Light";
+  font-size: 40px;
   color: #489cd4;
 
 }
