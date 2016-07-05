@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Freebrush Script";
+  src: url("Freebrush Script.ttf");
+}
+
 #text_shell {
 	/*Rotation*/
 	-moz-transform:rotate(90deg);
@@ -26,6 +31,14 @@
   position: absolute;
   height: 900px;
   width: 100px;
+}
+
+#column-middle {
+  background: #fff;
+  position: absolute;
+  height: 900px;
+  width: 100px;
+  left: 100px;
 }
 
 .scroll-left {
@@ -106,17 +119,17 @@
 	margin: 0px;
 	line-height: 100%;
 	text-align: center;
-	color: #fff;
-  font-family: "Nexa Light";
-  font-size: 25px;
+	color: #e31837;
+  font-family: "Freebrush Script";
+  font-size: 55px;
 	/* Starting position */
 	-moz-transform:translateX(100%);
 	-webkit-transform:translateX(100%);	
 	transform:translateX(100%);
 	/* Apply animation to this element */	
-	-moz-animation: scroll-left 12s linear infinite;
-	-webkit-animation: scroll-left 12s linear infinite;
-	animation: scroll-left 12s linear infinite;
+	-moz-animation: scroll-left 10s linear infinite;
+	-webkit-animation: scroll-left 10s linear infinite;
+	animation: scroll-left 10s linear infinite;
 }
 
 
@@ -129,17 +142,17 @@
 	margin: 0px;
 	line-height: 100%;
 	text-align: center;
-	color: #00FFCC;
-  font-family: "Nexa Light";
+	color: #e31837;
+  font-family: "Freebrush Script";
   font-size: 55px;
 	/* Starting position */
 	-moz-transform:translateX(100%);
 	-webkit-transform:translateX(100%);	
 	transform:translateX(100%);
 	/* Apply animation to this element */	
-	-moz-animation: scroll-left 8s linear infinite;
-	-webkit-animation: scroll-left 8s linear infinite;
-	animation: scroll-left 8s linear infinite;
+	-moz-animation: scroll-left 6s linear infinite;
+	-webkit-animation: scroll-left 6s linear infinite;
+	animation: scroll-left 6s linear infinite;
 }
 
 .scroll-left14 {
