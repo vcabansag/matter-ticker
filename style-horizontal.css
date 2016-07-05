@@ -190,6 +190,13 @@
 	animation: scroll-left 9s linear infinite;
 }
 
+span.welcome {
+  font-family:Nexa-Light;
+  font-size: 50px;
+  color: #489cd4;
+
+}
+
 /* Move it (define the animation) */
 @-moz-keyframes scroll-left {
  0%   { -moz-transform: translateX(100%); }
