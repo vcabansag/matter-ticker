@@ -70,7 +70,7 @@
 	margin: 0px;
 	line-height: 100%;
 	text-align: center;
-	color: #fe8103;
+	color: #03FEF6;
     font-family: "Nexa Book";
     font-size: 80px;
 	/* Starting position */
@@ -91,7 +91,7 @@
 	margin: 0px;
 	line-height: 100%;
 	text-align: center;
-	color: #f8b72b;
+	color: #03E3FE;
   font-family: "Nexa Book";
   font-size: 15px;
 	/* Starting position */
@@ -149,7 +149,7 @@
 
 
 .scroll-left11 {
-  background: #000;
+  background: none; /* #fff */	
 	white-space: nowrap;
 	position: absolute;
   bottom: 78px;
