@@ -1,13 +1,16 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html>
 <html>
 
   <head>
-    <meta charset="UTF-8">
-    <meta content="text/html; UTF-8" http-equiv="content-type">
-    <link rel="stylesheet" type="text/css" href="style-horizontal.css">
-    <title>Text Scroller Horizontal</title>
+    <meta charset="UTF-8"/>
+    <meta content="text/html; UTF-8" http-equiv="content-type"/>
+    <link rel="stylesheet" type="text/css" href="style-horizontal.css"/>
+    <title>Walgreens + MATTER</title>
+    <script src="jquery-3.0.0.min.js"></script>
+    <script src="jquery.marquee.min.js"></script>
   </head>
 
+<<<<<<< HEAD
   <body style="margin: 0px 0px 0px 0px; border: 0px;">
     <div id="wrapper">
       <div id="column-left"></div>
@@ -18,10 +21,30 @@
         </div>
         <div id="scrolling_text5" class="scroll-left5">
           MATTER MATTER MATTER MATTER MATTER 
+=======
+  <body>
+
+    <div id="left-ticker">
+      <div id="left-marquee" class="walgreens-scroller transform-text">
+        Welcome Walgreens! YAY!
+      </div>
+    </div>
+
+    <div id="middle-ticker">
+      <div class="walgreens-scroller transform-text">
+        <div id="left-marquee">
+          Welcome Walgreens
+>>>>>>> master
         </div>
-        <div id="scrolling_text6" class="scroll-left6">
+      </div>
+    </div>
+
+    <div id="right-ticker">
+      <div class="matter-large transform-text">
+        <div id="matter-large">
           MATTER
         </div>
+<<<<<<< HEAD
         <div id="scrolling_text8" class="scroll-left8">
           <span class="welcome"> Rishi Shah and Shradha Agarwal of Contextmedia</span> 
         </div>
@@ -29,7 +52,54 @@
           <span class="welcome">Tales from fhe Trenches <img src="context_media_black_and_white.png" height="60"></span> 
         </div>
         <div id="scrolling_text14" class="scroll-left14"></div>
+=======
+>>>>>>> master
       </div>
-    </body>
+      <div class="matter-repeated transform-text">
+        MATTER MATTER MATTER MATTER MATTER
+      </div>
+      <div class="matter-medium transform-text">
+        MATTER
+      </div>
+    </div>
 
-  </html>
+    <script type="text/javascript" charset="utf-8">
+      $(document).ready(function() {
+        $("#left-marquee").marquee({
+          //speed in milliseconds of the marquee
+          duration: 2000,
+
+          //gap in pixels between the tickers
+          gap: 30,
+
+          //time in milliseconds before the marquee will start animating
+          delayBeforeStart: 0,
+
+          //'left' or 'right'
+          direction: 'left',
+        });
+
+        $("#matter-large").marquee({
+
+          //speed in milliseconds of the marquee
+          duration: 800,
+
+          //gap in pixels between the tickers
+          gap: 30,
+
+          //time in milliseconds before the marquee will start animating
+          delayBeforeStart: 0,
+
+          //'left' or 'right'
+          direction: 'right',
+
+          //true or false - should the marquee be duplicated to show an effect of continues flow
+          duplicated: false
+
+        });
+      });
+    </script>
+
+  </body>
+
+</html>

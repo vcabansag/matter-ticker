@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @font-face {
   font-family: "Freebrush Script";
   src: url("Freebrush Script.ttf");
@@ -24,30 +25,63 @@
 	-webkit-transform:rotate(90deg);
 	-o-transform:rotate(90deg);
 	-ms-transform:rotate(90deg);
+=======
+/* Import Walgreens style font*/
+body {
+  margin: 0;
+>>>>>>> master
 }
 
-#scrolling_text1 {
-	-moz-transform:rotate(90deg);
-	-webkit-transform:rotate(90deg);
-	-o-transform:rotate(90deg);
-	-ms-transform:rotate(90deg);
+@font-face {
+  font-family: "Freebrush Script";
+  src: url("Freebrush Script.ttf");
 }
 
-#wrapper {
-	margin: 0;
-	width: 600px;
-	height: 700px;
-	border: 0px;
-	background-color: #000000;
+@font-face {
+  font-family: "Nexa Light";
+  src: url("Nexa Light.otf");
 }
 
+@font-face {
+  font-family: "Nexa Bold";
+  src: url("Nexa Bold.otf");
+}
+
+@font-face {
+  font-family: "Nexa Book";
+  src: url("Fontfabric - Nexa-Book.otf");
+}
+
+<<<<<<< HEAD
 #column-left {
   background: #000;
-  position: absolute;
+=======
+#left-ticker {
+  background: #fff;
   height: 900px;
   width: 100px;
+>>>>>>> master
+  position: absolute;
 }
 
+#middle-ticker {
+  /*background: #fff;*/
+  background: purple;
+  height: 900px;
+  width: 100px;
+  position: absolute;
+  left: 100px;
+}
+
+#right-ticker {
+  background: #000;
+  height: 900px;
+  width: 100px;
+  position: absolute;
+  left: 200px;
+}
+
+<<<<<<< HEAD
 #column-middle {
   background: #000;
   position: absolute;
@@ -66,10 +100,50 @@
 	white-space: nowrap;
 	position: absolute;
     bottom: 325px;
+=======
+.transform-text {
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.walgreens-scroller {
+  font-family: "Freebrush Script";
+  color: #e31837;
+  font-size: 55px;
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
+
+  /*display: inline-block;*/
+	/*white-space: nowrap;*/
+	/*margin: 0px;*/
+	/*line-height: 100%;*/
+	/*text-align: center;*/
+
+	/* Starting position */
+	/*-moz-transform:translateX(100%);*/
+	/*-webkit-transform:translateX(100%);	*/
+	/*transform:translateX(100%);*/
+
+	/* Apply animation to this element */	
+  /*-moz-animation: scroll-left 8s linear infinite;*/
+  /*-webkit-animation: scroll-left 8s linear infinite;*/
+  /*animation: scroll-left 8s linear infinite;*/
+}
+
+.matter-large {
+	/*white-space: nowrap;*/
+	/*position: absolute;*/
+  /*bottom: 225px;*/
+>>>>>>> master
 	width: 100%;
 	margin: 0px;
 	line-height: 100%;
 	text-align: center;
+<<<<<<< HEAD
 	color: #03FEF6;
     font-family: "Nexa Book";
     font-size: 80px;
@@ -81,30 +155,45 @@
 	-moz-animation: scroll-left 13s linear infinite;
 	-webkit-animation: scroll-left 13s linear infinite;
 	animation: scroll-left 13s linear infinite;
+=======
+	color: #fe8103;
+  font-family: "Nexa Book";
+  font-size: 85px;
+>>>>>>> master
 }
 
-.scroll-left5 {
+.matter-repeated {
 	white-space: nowrap;
+<<<<<<< HEAD
 	position: absolute;
     bottom: 390px;
+=======
+	/*position: inherit;*/
+  /*left: 200px;*/
+  bottom: 235px;
+>>>>>>> master
 	width: 100%;
 	margin: 0px;
 	line-height: 100%;
 	text-align: center;
+<<<<<<< HEAD
 	color: #03E3FE;
+=======
+	color: #f8b72b;
+>>>>>>> master
   font-family: "Nexa Book";
   font-size: 15px;
 	/* Starting position */
-	-moz-transform:translateX(100%);
-	-webkit-transform:translateX(100%);	
-	transform:translateX(100%);
+	/*-moz-transform:translateX(100%);*/
+	/*-webkit-transform:translateX(100%);	*/
+	/*transform:translateX(100%);*/
 	/* Apply animation to this element */	
-	-moz-animation: scroll-left 7s linear infinite;
-	-webkit-animation: scroll-left 7s linear infinite;
-	animation: scroll-left 7s linear infinite;
+	/*-moz-animation: scroll-left 2s linear infinite;*/
+	/*-webkit-animation: scroll-left 2s linear infinite;*/
+	/*animation: scroll-left 2s linear infinite;*/
 }
 
-.scroll-left6 {
+.matter-medium {
 	white-space: nowrap;
 	position: absolute;
   	bottom: 343px;
@@ -116,6 +205,7 @@
   font-family: "Nexa Book";
   font-size: 35px;
 	/* Starting position */
+<<<<<<< HEAD
 	-moz-transform:translateX(100%);
 	-webkit-transform:translateX(100%);	
 	transform:translateX(100%);
@@ -196,6 +286,18 @@ span.welcome {
   color: #489cd4;
 }
 
+=======
+	/*-moz-transform:translateX(100%);*/
+	/*-webkit-transform:translateX(100%);	*/
+	/*transform:translateX(100%);*/
+	/* Apply animation to this element */	
+	/*-moz-animation: scroll-left 5s linear infinite;*/
+	/*-webkit-animation: scroll-left 5s linear infinite;*/
+	/*animation: scroll-left 5s linear infinite;*/
+}
+
+
+>>>>>>> master
 /* Move it (define the animation) */
 @-moz-keyframes scroll-left {
  0%   { -moz-transform: translateX(100%); }
