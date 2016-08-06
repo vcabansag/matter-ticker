@@ -1,36 +1,32 @@
 @charset "utf-8";
 @import "normalize";
 
-/*body {*/
-  /*background: #ECC561;*/
-/*}*/
+body {
+  background: #000;
+}
 
 #wrapper {
   margin: 0;
   width: 600px;
   height: 700px;
   border: 0px;
-  background-color: #000;
 }
 
-#column-left {
-  background: #000;
+.column {
   position: absolute;
   height: 900px;
   width: 100px;
+}
+
+#left {
+  background: red;
  }
 
-#column-middle {
-  background: #000;
-  position: absolute;
-  height: 900px;
-  width: 115px;
+#middle {
   left: 100px;
+  background: yellow;
 }
-#column-right {
-  background: #000;
-  position: absolute;
-  height: 900px;
-  width: 115px;
+#right {
   left: 200px;
+  background: green;
 }
