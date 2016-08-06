@@ -3,12 +3,12 @@
 
 @font-face {
   font-family: 'Nexa Light';
-  src: url('fonts/Nexa Light.otf');
+  src: url('assets/Nexa Light.otf');
 }
 
 @font-face {
-  font-family: "Nexa Bold";
-  src: url('fonts/Nexa Bold.otf');
+  font-family: "Nexa-Bold";
+  src: url('fonts/Nexa-Bold.otf');
 }
 
 @font-face {
@@ -16,10 +16,11 @@
   src: url('fonts/Nexa Book.otf');
 }
 
+
 body {
   background: #000;
   color: #fff;
-  font-family: 'Nexa Bold';
+  font-family: 'Nexa Book';
 }
 
 #wrapper {
@@ -58,13 +59,22 @@ body {
     -o-transform:             rotate(90deg);
     -o-transform-origin:      40% 66%;
 
-    .container {
-      display: inline-block;
-      width: 990px;
+    span {
+      font-family: 'Nexa Book';
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      position: absolute;
+      left: 90px;
+      bottom: -14px;
+      font-size: 30px;
+      width: 250px
+    }
 
-      img {
-        display: inline;
-      }
+    #scroll.container {
+      width: 990px;
+      position: absolute;
+      top: -42px;
+      left: 380px;
     }
   }
 }
