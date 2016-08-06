@@ -3,6 +3,7 @@
 
 body {
   background: #000;
+  color: #fff;
 }
 
 #wrapper {
@@ -19,14 +20,36 @@ body {
 }
 
 #left {
-  background: red;
+  border: 1px dotted #999;
  }
 
 #middle {
   left: 100px;
-  background: yellow;
+  border: 1px dotted #999;
 }
+
 #right {
   left: 200px;
-  background: green;
+  border: 1px dotted #999;
+
+  .presented-by {
+    -webkit-transform:        rotate(90deg);
+    -webkit-transform-origin: 40% 66%;
+    -moz-transform:           rotate(90deg);
+    -moz-transform-origin:    40% 66%;
+    -ms-transform:            rotate(90deg);
+    -ms-transform-origin:     40% 66%;
+    -o-transform:             rotate(90deg);
+    -o-transform-origin:      40% 66%;
+
+    .container {
+      display: inline-block;
+      width: 990px;
+
+      img {
+        display: inline;
+      }
+    }
+  }
 }
+
