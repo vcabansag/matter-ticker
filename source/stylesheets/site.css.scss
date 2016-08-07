@@ -40,6 +40,9 @@ body {
   border: 1px dotted #999;
 
   .presented-by {
+    /* Starting position */
+    -webkit-transform: translateX(100%);
+
     -webkit-transform:        rotate(90deg);
     -webkit-transform-origin: 40% 66%;
     -moz-transform:           rotate(90deg);
@@ -48,6 +51,14 @@ body {
     -ms-transform-origin:     40% 66%;
     -o-transform:             rotate(90deg);
     -o-transform-origin:      40% 66%;
+
+
+    //animation: marquee 5s linear infinite;
+
+    //@keyframes presented-by {
+    //  0% { left: 0; }
+    //  100% { left: -100%; }
+    //}
 
     span#matter-large {
       text-transform: uppercase;
@@ -127,3 +138,72 @@ body {
   }
 }
 
+// #zebra {
+//   animation: marquee 5s linear infinite;
+//
+//   @keyframes zebra {
+//     0% { left: 0; }
+//     100% { left: -100%; }
+//   }
+// }
+
+
+#rotate-me {
+  position: absolute;
+  width: 1400px;
+  -webkit-transform: rotate(90deg);
+  -webkit-transform-origin: 0% 65%;
+}
+
+.marquee {
+  height: 157px;
+
+  //overflow: hidden;
+  position: relative;
+
+  /* Starting position */
+  -webkit-transform:translateX(50%);
+}
+
+.marquee div {
+  // Used for revealing rectangles
+  // background-color: rgba(3, 244, 98, .7);
+  font-family: 'Nexa Book';
+  font-size: 141px;
+  text-transform: uppercase;
+  letter-spacing: -6px;
+  display: block;
+  position: relative;
+  bottom: 11px;
+  overflow: hidden;
+
+  -webkit-animation: marquee 6s linear infinite;
+  -moz-animation: marquee 6s linear infinite;
+  -ms-animation: marquee 6s linear infinite;
+  -o-animation: marquee 6s linear infinite;
+  animation: marquee 6s linear infinite;
+                                                                                                    }
+@-webkit-keyframes marquee {
+  0% { left: 0; }
+  100% { left: -100%; }
+}
+
+@-moz-keyframes marquee {
+  0% { left: 0; }
+  100% { left: -100%; }
+}
+
+@-ms-keyframes marquee {
+  0% { left: 0; }
+  100% { left: -100%; }
+}
+
+@-o-keyframes marquee {
+  0% { left: 0; }
+  100% { left: -100%; }
+}
+
+@keyframes marquee {
+  0% { left: 0; }
+  100% { left: -100%; }
+}
