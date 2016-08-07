@@ -175,11 +175,11 @@ body {
   bottom: 11px;
   overflow: hidden;
 
-  -webkit-animation: marquee 6s linear infinite;
-  -moz-animation: marquee 6s linear infinite;
-  -ms-animation: marquee 6s linear infinite;
-  -o-animation: marquee 6s linear infinite;
-  animation: marquee 6s linear infinite;
+  -webkit-animation: marquee 9s linear infinite;
+  -moz-animation: marquee 9s linear infinite;
+  -ms-animation: marquee 9s linear infinite;
+  -o-animation: marquee 9s linear infinite;
+  animation: marquee 9s linear infinite;
                                                                                                     }
 @-webkit-keyframes marquee {
   0% { left: 0; }
@@ -210,7 +210,7 @@ body {
 
 .tales-marquee {
   height: 157px;
-  width: 4000px;
+  width: 1400px;
   position: relative;
   -webkit-transform:translateX(50%);
 }
@@ -219,19 +219,19 @@ body {
   // Used for revealing rectangles
   // background-color: rgba(3, 244, 98, .7);
   font-family: 'Nexa Book';
-  font-size: 141px;
+  font-size: 41px;
   text-transform: uppercase;
-  letter-spacing: -6px;
+  //letter-spacing: -6px;
   display: block;
   position: relative;
-  bottom: 11px;
+  bottom: -32px;
   overflow: hidden;
 
-  -webkit-animation: marquee 9s linear infinite;
-  -moz-animation: marquee 9s linear infinite;
-  -ms-animation: marquee 9s linear infinite;
-  -o-animation: marquee 9s linear infinite;
-  animation: marquee 9s linear infinite;
+  -webkit-animation: marquee 14s linear infinite;
+  -moz-animation: marquee 14s linear infinite;
+  -ms-animation: marquee 14s linear infinite;
+  -o-animation: marquee 14s linear infinite;
+  animation: marquee 14s linear infinite;
                                                                                                     }
 @-webkit-keyframes marquee {
   0% { left: 0; }
