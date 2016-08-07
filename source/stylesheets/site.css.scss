@@ -3,12 +3,12 @@
 
 @font-face {
   font-family: 'Nexa Light';
-  src: url('assets/Nexa Light.otf');
+  src: url('fonts/Nexa Light.otf');
 }
 
 @font-face {
   font-family: "Nexa-Bold";
-  src: url('fonts/Nexa-Bold.otf');
+  src: url('fonts/Nexa Bold.otf');
 }
 
 @font-face {
@@ -38,6 +38,39 @@ body {
 
 #left {
   border: 1px dotted #999;
+
+  .presented-by {
+    -webkit-transform:        rotate(90deg);
+    -webkit-transform-origin: 40% 66%;
+    -moz-transform:           rotate(90deg);
+    -moz-transform-origin:    40% 66%;
+    -ms-transform:            rotate(90deg);
+    -ms-transform-origin:     40% 66%;
+    -o-transform:             rotate(90deg);
+    -o-transform-origin:      40% 66%;
+
+    span#matter-large {
+      text-transform: uppercase;
+      font-size: 141px;
+      position: absolute;
+      top: -74px;
+      left: 25px;
+    }
+    span#matter-multiples {
+      text-transform: uppercase;
+      font-size: 22px;
+      position: absolute;
+      left: 14px;
+      top: 20px;
+    }
+    span#matter-medium {
+      text-transform: uppercase;
+      font-size: 45px;
+      position: absolute;
+      left: 14px;
+      top: -63px;
+    }
+  }
  }
 
 #middle {
@@ -75,6 +108,21 @@ body {
       position: absolute;
       top: -42px;
       left: 380px;
+
+      -webkit-animation-duration: 3s;
+      -moz-animation-duration: 3s;
+      -ms-animation-duration: 3s;
+      -o-animation-duration: 3s;
+
+      -webkit-animation-delay: 2s;
+      -moz-animation-delay: 2s;
+      -ms-animation-delay: 2s;
+      -o-animation-delay: 2s;
+
+      -webkit-animation-iteration-count: infinite;
+      -moz-animation-iteration-count: infinite;
+      -ms-animation-iteration-count: infinite;
+      -o-animation-iteration-count: infinite;
     }
   }
 }
