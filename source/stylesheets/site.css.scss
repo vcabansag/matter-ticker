@@ -16,146 +16,43 @@
   src: url('fonts/Nexa Book.otf');
 }
 
-
 body {
   background: #000;
   color: #fff;
-  font-family: 'Nexa Book';
+  font-family: 'Nexa Book', Helvetica, Arial;
 }
 
 #wrapper {
+  border: 0px;
+  height: 700px;
   margin: 0;
   width: 600px;
-  height: 700px;
-  border: 0px;
 }
 
 .column {
-  position: absolute;
   height: 900px;
+  position: absolute;
   width: 100px;
 }
 
-#left {
-  border: 1px dotted #999;
+#left-column, #middle-column, #right-column {
+  border: 1px dotted #292929;
+}
 
-  .presented-by {
-    /* Starting position */
-    -webkit-transform: translateX(100%);
-
-    -webkit-transform:        rotate(90deg);
-    -webkit-transform-origin: 40% 66%;
-    -moz-transform:           rotate(90deg);
-    -moz-transform-origin:    40% 66%;
-    -ms-transform:            rotate(90deg);
-    -ms-transform-origin:     40% 66%;
-    -o-transform:             rotate(90deg);
-    -o-transform-origin:      40% 66%;
-
-
-    //animation: marquee 5s linear infinite;
-
-    //@keyframes presented-by {
-    //  0% { left: 0; }
-    //  100% { left: -100%; }
-    //}
-
-    span#matter-large {
-      text-transform: uppercase;
-      font-size: 141px;
-      position: absolute;
-      top: -74px;
-      left: 25px;
-    }
-    span#matter-multiples {
-      text-transform: uppercase;
-      font-size: 22px;
-      position: absolute;
-      left: 14px;
-      top: 20px;
-    }
-    span#matter-medium {
-      text-transform: uppercase;
-      font-size: 45px;
-      position: absolute;
-      left: 14px;
-      top: -63px;
-    }
-  }
- }
-
-#middle {
+#middle-column {
   left: 100px;
-  border: 1px dotted #999;
 }
 
-#right {
+#right-column {
   left: 200px;
-  border: 1px dotted #999;
-
-  .presented-by {
-    -webkit-transform:        rotate(90deg);
-    -webkit-transform-origin: 40% 66%;
-    -moz-transform:           rotate(90deg);
-    -moz-transform-origin:    40% 66%;
-    -ms-transform:            rotate(90deg);
-    -ms-transform-origin:     40% 66%;
-    -o-transform:             rotate(90deg);
-    -o-transform-origin:      40% 66%;
-
-    span {
-      font-family: 'Nexa Book';
-      letter-spacing: 1px;
-      text-transform: uppercase;
-      position: absolute;
-      left: 90px;
-      bottom: -14px;
-      font-size: 30px;
-      width: 250px
-    }
-
-    #scroll.container {
-      width: 990px;
-      position: absolute;
-      top: -42px;
-      left: 380px;
-
-      -webkit-animation-duration: 3s;
-      -moz-animation-duration: 3s;
-      -ms-animation-duration: 3s;
-      -o-animation-duration: 3s;
-
-      -webkit-animation-delay: 2s;
-      -moz-animation-delay: 2s;
-      -ms-animation-delay: 2s;
-      -o-animation-delay: 2s;
-
-      -webkit-animation-iteration-count: infinite;
-      -moz-animation-iteration-count: infinite;
-      -ms-animation-iteration-count: infinite;
-      -o-animation-iteration-count: infinite;
-    }
-  }
 }
 
-// #zebra {
-//   animation: marquee 5s linear infinite;
-//
-//   @keyframes zebra {
-//     0% { left: 0; }
-//     100% { left: -100%; }
-//   }
-// }
-
-
-#rotate-me {
+.rotated-container {
   position: absolute;
   width: 1400px;
   -webkit-transform: rotate(90deg);
   -webkit-transform-origin: 0% 65%;
 }
-
-// Left column vertical marquee
 
 .marquee {
   height: 157px;
@@ -180,7 +77,8 @@ body {
   -ms-animation: marquee 9s linear infinite;
   -o-animation: marquee 9s linear infinite;
   animation: marquee 9s linear infinite;
-                                                                                                    }
+}
+
 @-webkit-keyframes marquee {
   0% { left: 0; }
   100% { left: -100%; }
@@ -206,33 +104,31 @@ body {
   100% { left: -100%; }
 }
 
-// Middle column vertical marquee
-
 .tales-marquee {
   height: 157px;
-  width: 1400px;
   position: relative;
+  width: 1400px;
   -webkit-transform:translateX(50%);
 }
 
 .tales-marquee div {
-  // Used for revealing rectangles
   // background-color: rgba(3, 244, 98, .7);
+  bottom: -32px;
+  display: block;
   font-family: 'Nexa Book';
   font-size: 41px;
-  text-transform: uppercase;
   //letter-spacing: -6px;
-  display: block;
-  position: relative;
-  bottom: -32px;
   overflow: hidden;
+  position: relative;
+  text-transform: uppercase;
 
   -webkit-animation: marquee 14s linear infinite;
   -moz-animation: marquee 14s linear infinite;
   -ms-animation: marquee 14s linear infinite;
   -o-animation: marquee 14s linear infinite;
   animation: marquee 14s linear infinite;
-                                                                                                    }
+}
+
 @-webkit-keyframes marquee {
   0% { left: 0; }
   100% { left: 0%; }
@@ -256,4 +152,131 @@ body {
 @keyframes marquee {
   0% { left: 0; }
   100% { left: -100%; }
+}
+
+.presented-by-marquee {
+  height: 157px;
+  width: 1400px;
+  position: relative;
+  -webkit-transform:translateX(50%);
+}
+
+.presented-by-marquee span, .presented-by-marquee img {
+  // Used for revealing rectangles
+  // background-color: rgba(3, 244, 98, .7);
+  font-family: 'Nexa Book';
+  font-size: 41px;
+  text-transform: uppercase;
+  //letter-spacing: -6px;
+  position: relative;
+  bottom: -32px;
+  overflow: hidden;
+
+  -webkit-animation: marquee 18s linear infinite;
+  -moz-animation: marquee 18s linear infinite;
+  -ms-animation: marquee 18s linear infinite;
+  -o-animation: marquee 18s linear infinite;
+  animation: marquee 18s linear infinite;
+}
+
+@-webkit-keyframes marquee {
+  0% { left: 0; }
+  100% { left: 0%; }
+}
+
+@-moz-keyframes marquee {
+  0% { left: 0; }
+  100% { left: -100%; }
+}
+
+@-ms-keyframes marquee {
+  0% { left: 0; }
+  100% { left: -100%; }
+}
+
+@-o-keyframes marquee {
+  0% { left: 0; }
+  100% { left: -100%; }
+}
+
+@keyframes marquee {
+  0% { left: 0; }
+  100% { left: -100%; }
+}
+
+.presented-by-marquee img {
+  margin-left: 65px;
+}
+
+.presented-by-marquee {
+  img:nth-child(2){
+    margin-left: 55px;
+    margin-top: 10px;
+  }
+}
+
+span#matter-large {
+  text-transform: uppercase;
+  font-size: 141px;
+  position: absolute;
+  top: -74px;
+  left: 25px;
+}
+span#matter-multiples {
+  text-transform: uppercase;
+  font-size: 22px;
+  position: absolute;
+  left: 14px;
+  top: 20px;
+}
+span#matter-medium {
+  text-transform: uppercase;
+  font-size: 45px;
+  position: absolute;
+  left: 14px;
+  top: -63px;
+}
+
+.presented-by {
+  -webkit-transform:        rotate(90deg);
+  -webkit-transform-origin: 40% 66%;
+  -moz-transform:           rotate(90deg);
+  -moz-transform-origin:    40% 66%;
+  -ms-transform:            rotate(90deg);
+  -ms-transform-origin:     40% 66%;
+  -o-transform:             rotate(90deg);
+  -o-transform-origin:      40% 66%;
+
+  span {
+    font-family: 'Nexa Book';
+    text-transform: uppercase;
+    position: absolute;
+    left: 90px;
+    bottom: -10px;
+    font-size: 25px;
+    width: 220px
+  }
+
+  #scroll.container {
+    width: 990px;
+    position: absolute;
+    top: -42px;
+    left: 318px;
+
+    -webkit-animation-duration: 3s;
+    -moz-animation-duration: 3s;
+    -ms-animation-duration: 3s;
+    -o-animation-duration: 3s;
+
+    -webkit-animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    -ms-animation-delay: 2s;
+    -o-animation-delay: 2s;
+
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -ms-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+
+  }
 }

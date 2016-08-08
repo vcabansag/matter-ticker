@@ -5,26 +5,24 @@ title: Welcome to Middleman
 <div class='wrapper'>
 
 
-  <div id='left' class='column'>
-    <div id='rotate-me'>
+  <div id='left-column' class='column'>
+    <div class='rotated-container'>
       <div class='marquee'>
         <div>
           Matter
         </div>
+        <!-- TODO Work these back into the left marquee
+        <span id='matter-large'>Matter</span>
+        <span id='matter-multiples'>Matter&nbsp;Matter&nbsp;Matter&nbsp;Matter&nbsp;Matter&nbsp;Matter&nbsp;</span>
+        <span id='matter-medium'>Matter</span>
+        -->
       </div>
     </div>
 
-    <!--
-    <div class='presented-by'>
-      <span id='matter-large'>Matter</span>
-      <span id='matter-multiples'>Matter&nbsp;Matter&nbsp;Matter&nbsp;Matter&nbsp;Matter&nbsp;Matter&nbsp;</span>
-      <span id='matter-medium'>Matter</span>
-    </div>
-    -->
   </div>
 
-  <div id='middle' class='column'>
-    <div id='rotate-me'>
+  <div id='middle-column' class='column'>
+    <div class='rotated-container'>
       <div class='tales-marquee'>
         <div>
           Tales from the Trenches
@@ -33,11 +31,12 @@ title: Welcome to Middleman
     </div>
   </div>
 
-  <div id='right' class='column'>
-    <div class='presented-by'>
-      <span>Presented by</span>
-      <div id='scroll' class='container'>
-        <%= image_tag 'pritzker-group-logo.svg', height: '60' %> <%= image_tag 'context-media-logo.svg', height: '60' %>
+  <div id='right-column' class='column'>
+    <div class='rotated-container'>
+      <div class='presented-by-marquee'>
+        <span>Presented by</span>
+        <%= image_tag 'pritzker-group-logo-white.png', height: '28' %>
+        <%= image_tag 'context-media-logo-white.png', height: '40' %>
       </div>
     </div>
   </div>
