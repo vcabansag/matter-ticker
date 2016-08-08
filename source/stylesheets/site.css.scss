@@ -117,7 +117,6 @@ body {
   display: block;
   font-family: 'Nexa Book';
   font-size: 41px;
-  //letter-spacing: -6px;
   overflow: hidden;
   position: relative;
   text-transform: uppercase;
@@ -156,21 +155,20 @@ body {
 
 .presented-by-marquee {
   height: 157px;
-  width: 1400px;
   position: relative;
+  width: 1400px;
   -webkit-transform:translateX(50%);
 }
 
 .presented-by-marquee span, .presented-by-marquee img {
   // Used for revealing rectangles
   // background-color: rgba(3, 244, 98, .7);
+  bottom: -32px;
   font-family: 'Nexa Book';
   font-size: 41px;
-  text-transform: uppercase;
-  //letter-spacing: -6px;
-  position: relative;
-  bottom: -32px;
   overflow: hidden;
+  position: relative;
+  text-transform: uppercase;
 
   -webkit-animation: marquee 18s linear infinite;
   -moz-animation: marquee 18s linear infinite;
@@ -208,12 +206,13 @@ body {
   margin-left: 65px;
 }
 
-.presented-by-marquee {
-  img:nth-child(2){
-    margin-left: 55px;
-    margin-top: 10px;
-  }
-}
+//.presented-by-marquee {
+//
+//  img:nth-child(2){
+//    margin-left: 55px;
+//    margin-top: 10px;
+//  }
+//}
 
 span#matter-large {
   text-transform: uppercase;
@@ -235,48 +234,4 @@ span#matter-medium {
   position: absolute;
   left: 14px;
   top: -63px;
-}
-
-.presented-by {
-  -webkit-transform:        rotate(90deg);
-  -webkit-transform-origin: 40% 66%;
-  -moz-transform:           rotate(90deg);
-  -moz-transform-origin:    40% 66%;
-  -ms-transform:            rotate(90deg);
-  -ms-transform-origin:     40% 66%;
-  -o-transform:             rotate(90deg);
-  -o-transform-origin:      40% 66%;
-
-  span {
-    font-family: 'Nexa Book';
-    text-transform: uppercase;
-    position: absolute;
-    left: 90px;
-    bottom: -10px;
-    font-size: 25px;
-    width: 220px
-  }
-
-  #scroll.container {
-    width: 990px;
-    position: absolute;
-    top: -42px;
-    left: 318px;
-
-    -webkit-animation-duration: 3s;
-    -moz-animation-duration: 3s;
-    -ms-animation-duration: 3s;
-    -o-animation-duration: 3s;
-
-    -webkit-animation-delay: 2s;
-    -moz-animation-delay: 2s;
-    -ms-animation-delay: 2s;
-    -o-animation-delay: 2s;
-
-    -webkit-animation-iteration-count: infinite;
-    -moz-animation-iteration-count: infinite;
-    -ms-animation-iteration-count: infinite;
-    -o-animation-iteration-count: infinite;
-
-  }
 }
