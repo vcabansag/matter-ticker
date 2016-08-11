@@ -64,12 +64,12 @@ body {
   // Used for revealing rectangles
   // background-color: rgba(3, 244, 98, .7);
   font-family: 'Nexa Book';
-  font-size: 141px;
+  font-size: 83px;
   text-transform: uppercase;
   letter-spacing: -6px;
   display: block;
   position: relative;
-  bottom: 11px;
+  bottom: -3px;
   overflow: hidden;
 
   -webkit-animation: marquee 9s linear infinite;
