@@ -17,7 +17,8 @@
 }
 
 body {
-  background: #000;
+  /*background: #000;*/
+  background: #fff;
   color: #fff;
   font-family: 'Nexa Book', Helvetica, Arial;
 }
@@ -39,11 +40,21 @@ body {
   //border: 1px dotted #292929;
 }
 
+#left-column, #middle-column {
+  background-color: #fff;
+}
+
+#middle-column {
+  background-color: #a8b400;
+}
+
+
 #middle-column {
   left: 100px;
 }
 
 #right-column {
+  background: #000;
   left: 200px;
 }
 
